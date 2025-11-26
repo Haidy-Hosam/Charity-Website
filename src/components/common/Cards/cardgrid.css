@@ -1,16 +1,15 @@
 .cards-wrapper {
   display: flex;
-  flex-wrap: wrap;       /* يسمح بالنزول لسطر جديد */
-  gap: 30px;             /* المسافة بين الكروت */
+  flex-wrap: wrap;      
+  gap: 30px;             
   padding: 20px 20px;
-  justify-content: center; /* توسيط المجموعة */
+  justify-content: center; 
   background-color: #ffffff;
   direction: rtl;
 }
 
-/* العنصر اللي بيشيل الكارت ويحدد عرضه */
+
 .grid-item {
-  /* المعادلة دي بتقسم الشاشة على 3 وتخصم المسافات */
   flex: 0 0 calc((100% - 60px) / 3); 
   max-width: calc((100% - 60px) / 3);
   box-sizing: border-box;

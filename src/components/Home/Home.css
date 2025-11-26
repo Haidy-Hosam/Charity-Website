@@ -27,7 +27,7 @@
   font-family:system-ui, Arial, sans-serif;
 }
 
-/* الصورة */
+
 .card__img {
   width:100%;
   height:160px;
@@ -37,7 +37,7 @@
   margin-bottom:12px;
 }
 
-/* النصوص */
+
 .card__title {
   font-size:1.05rem;
   margin:0 0 6px 0;
@@ -49,7 +49,7 @@
   line-height:1.4;
 }
 
-/* أزرار */
+
 .card__actions { display:flex; gap:8px; }
 .btn {
   background:#2563eb;
@@ -70,17 +70,17 @@
 /* ---------------------------- */
 .cards-row{
   display:flex;
-  gap:16px;            /* المسافة بين الكروت */
-  flex-wrap:wrap;      /* لو ما فيش مساحة يكسروا لسطر تاني */
-  justify-content:center; /* يوسّط الصف لو لسه فيه مساحة */
+  gap:16px;            
+  flex-wrap:wrap;      
+  justify-content:center;
   padding:16px;
 }
 
-/* لو عايزة بالضبط 3 في سطر */
+
 .cards-row .card{
-  flex: 1 1 300px; max-width: 320px; /* 32px = gap * (cols - 1) */
+  flex: 1 1 300px; max-width: 320px; 
   box-sizing:border-box;
-  min-width:220px;     /* يمنع الكارد يصغر قوي */
+  min-width:220px;     
 }
 
 /* responsive: لو شاشة أصغر خليهم يبقوا عمودين أو عمود واحد */

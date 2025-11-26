@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 
-// مسار الصورة — لو نقلتيها لــ src/assets استبدلي المسار باللي تحت
-// import Group_40 from "../../assets/logo_66d368304b3ee.png";
 import Group_40 from "../../assets/Group 40.png";
 
 export default function Footer() {
@@ -10,7 +8,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
 
-        {/* Right column - quick links */}
+
         <div className="footer-col footer-right">
           <div className="quick-title">روابط الانتقال السريع</div>
           <ul className="quick-links">
@@ -22,7 +20,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Center column - logo */}
+
         <div className="footer-col footer-center">
           <img src={Group_40} alt="vision logo" className="footer-logo" />
         </div>

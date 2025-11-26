@@ -7,21 +7,20 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   background: #fff;
   display: flex;
-  flex-direction: column; /* يرص الصورة فوق والزرار تحت */
+  flex-direction: column; 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .card-container:hover {
-  transform: translateY(-5px); /* رفعة بسيطة */
+  transform: translateY(-5px); 
   box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 
-/* 👇 الحاوية اللي ماسكة الصورة والبيانات المخفية 👇 */
 .image-wrapper {
   position: relative;
   width: 100%;
   flex-grow: 1; /* 2. دي بتخلي الصورة تاخد كل المساحة المتاحة وتسيب مكان بس للزرار */
-  overflow: hidden; /* عشان الزووم */
+  overflow: hidden; 
 }
 
 .card_img {
@@ -51,7 +50,6 @@
   z-index: 10;
 }
 
-/* 👇 الـ Overlay يغطي الـ image-wrapper فقط 👇 */
 .card_overlay {
   position: absolute;
   top: 0;
@@ -65,24 +63,24 @@
   z-index: 5;
   
   display: flex;
-  align-items: flex-end; /* المحتوى يكون تحت */
+  align-items: flex-end; 
   padding: 20px;
   box-sizing: border-box;
 }
 
 .card-container:hover .card_overlay {
-  opacity: 1; /* يظهر عند الهوفر */
+  opacity: 1; 
 }
 
 .overlay_content {
   width: 100%;
   text-align: right;
   color: #fff;
-  transform: translateY(20px); /* حركة جمالية: النص بيطلع من تحت لفوق */
+  transform: translateY(20px); 
   transition: transform 0.3s ease;
 }
 
-/* النص يطلع لفوق لما نعمل هوفر */
+
 .card-container:hover .overlay_content {
   transform: translateY(0);
 }
@@ -111,8 +109,8 @@
   font-weight: bold;
   font-size: 18px;
   cursor: pointer;
-  position: relative; /* عشان يبقى فوق أي حاجة */
-  z-index: 20; /* رقم عالي عشان نضمن إنه ينداس عليه */
+  position: relative; 
+  z-index: 20; 
   transition: background 0.3s ease;
   border-radius: 0 !important;
 }
@@ -122,9 +120,9 @@
 }
 .card_date {
   display: block;
-  font-size: 0.75rem; /* خط صغير */
-  color: #e0e0e0;     /* لون فضي فاتح */
-  margin-top: 10px;   /* مسافة تفصله عن العنوان */
+  font-size: 0.75rem; 
+  color: #e0e0e0;    
+  margin-top: 10px;   
   font-family: sans-serif; 
   opacity: 0.9;
 }
