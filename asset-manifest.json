@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/charity-website/static/css/main.d13f259e.css",
+    "main.js": "/charity-website/static/js/main.593e87df.js",
+    "static/js/453.73c2dc74.chunk.js": "/charity-website/static/js/453.73c2dc74.chunk.js",
+    "static/media/pexels-gustavo-fring-4894722.webp": "/charity-website/static/media/pexels-gustavo-fring-4894722.4fe01cf9efe4da896c6a.webp",
+    "static/media/Frame 2.png": "/charity-website/static/media/Frame 2.535fb81df76fdfbff8d8.png",
+    "static/media/premium_photo-1661567408466-27899e8a4a2f.webp": "/charity-website/static/media/premium_photo-1661567408466-27899e8a4a2f.12dad62ae8fd9f2d78ae.webp",
+    "static/media/Group 40.png": "/charity-website/static/media/Group 40.c7ea8355112a69de34d6.png",
+    "static/media/channels4_profile.webp": "/charity-website/static/media/channels4_profile.60fda9388c3f8c98c057.webp",
+    "static/media/kids-playing-football-29318311.webp": "/charity-website/static/media/kids-playing-football-29318311.6b56d8288adededfe13f.webp",
+    "static/media/pexels-photo-7386009.webp": "/charity-website/static/media/pexels-photo-7386009.4f4c13701fc5e5b54c03.webp",
+    "static/media/pexels-photo-27523732.webp": "/charity-website/static/media/pexels-photo-27523732.aab8cdc225d7439d0749.webp",
+    "static/media/male2.webp": "/charity-website/static/media/male2.1072fbd3fa4f1fa01720.webp",
+    "static/media/pexels-photo-9070698.webp": "/charity-website/static/media/pexels-photo-9070698.33f91cab2d931937fd18.webp",
+    "static/media/logo_66d368304b3ee.png": "/charity-website/static/media/logo_66d368304b3ee.77a913f6eba6f09c7b6a.png",
+    "static/media/male1.webp": "/charity-website/static/media/male1.984618b4c433131c46f8.webp",
+    "static/media/female.webp": "/charity-website/static/media/female.f867b5d0f0c2249bd65d.webp",
+    "static/media/femal2.webp": "/charity-website/static/media/femal2.29a29eb57ed6d740a257.webp",
+    "static/media/downloasd.webp": "/charity-website/static/media/downloasd.5ec1db940df61f485f08.webp",
+    "static/media/Trial-Logo-3.webp": "/charity-website/static/media/Trial-Logo-3.5ac8dd806a5a670b6b0a.webp",
+    "static/media/download.webp": "/charity-website/static/media/download.28d5dd8c2c7648addb4a.webp",
+    "static/media/download (2).webp": "/charity-website/static/media/download (2).8392ef6d141531ea7a0d.webp",
+    "static/media/download (1).webp": "/charity-website/static/media/download (1).1c9d65b9d7f174e284f9.webp",
+    "static/media/down2load.webp": "/charity-website/static/media/down2load.f8820188b3adc4cdd98b.webp",
+    "static/media/images.webp": "/charity-website/static/media/images.84e267d8fe51d1e6be54.webp",
+    "static/media/download (3).webp": "/charity-website/static/media/download (3).4ed65e4d4d4e03a15b4a.webp",
+    "index.html": "/charity-website/index.html",
+    "main.d13f259e.css.map": "/charity-website/static/css/main.d13f259e.css.map",
+    "main.593e87df.js.map": "/charity-website/static/js/main.593e87df.js.map",
+    "453.73c2dc74.chunk.js.map": "/charity-website/static/js/453.73c2dc74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d13f259e.css",
+    "static/js/main.593e87df.js"
+  ]
+}
