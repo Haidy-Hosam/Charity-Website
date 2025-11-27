@@ -1,25 +1,32 @@
 import React from "react";
 import "./Footer.css";
-
 import Group_40 from "../../assets/Group 40.png";
+import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="footer-inner">
-
-
         <div className="footer-col footer-right">
           <div className="quick-title">روابط الانتقال السريع</div>
           <ul className="quick-links">
-            <li><a href="/">الصفحة الرئيسية</a></li>
-            <li><a href="/projects">المشاريع</a></li>
-            <li><a href="/about">عن الجمعية</a></li>
-            <li><a href="/store">المتجر الخيري</a></li>
-            <li><a href="/articles">الأخبار و المقالات</a></li>
+            <li>
+              <a href="/">الصفحة الرئيسية</a>
+            </li>
+            <li>
+              <a href="/projects">المشاريع</a>
+            </li>
+            <li>
+              <a href="/about">عن الجمعية</a>
+            </li>
+            <li>
+              <a href="/store">المتجر الخيري</a>
+            </li>
+            <li>
+              <a href="/articles">الأخبار و المقالات</a>
+            </li>
           </ul>
         </div>
-
 
         <div className="footer-col footer-center">
           <img src={Group_40} alt="vision logo" className="footer-logo" />
@@ -33,17 +40,29 @@ export default function Footer() {
             <div className="contact-label">اتصل بنا</div>
             <div className="contact-number">0506125552</div>
           </div>
-{/* 
-          <div className="socials">
+
+          {/* <div className="socials">
             <div className="contact-label">تجدنا علي</div>
             <a href="#" aria-label="instagram" className="social">IG</a>
             <a href="#" aria-label="facebook" className="social">FB</a>
             <a href="#" aria-label="linkedin" className="social">IN</a>
-          </div> */}
+          </div>
+        </div> */}
+          <div className="socials">
+            <div className="contact-label">تجدنا علي</div>
+            <div className="social-container">
+              <div className="icon-box">
+                <FaInstagram />
+              </div>
+              <div className="icon-box">
+                <FaFacebookF />
+              </div>
+              <div className="icon-box">
+                <FaLinkedinIn />
+              </div>
+            </div>
+          </div>
         </div>
-
-
-
       </div>
 
       {/* bottom bar */}

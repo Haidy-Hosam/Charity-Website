@@ -5,7 +5,7 @@ import Header from './components/Header/Header.js';
 import Footer from './components/Footer/Footer.js';
 import Home from './components/Home/Home.js';
 import Container from "./components/Layout/Container";
-import callll from './components/call';
+
 
 import {
   BrowserRouter as Router,
@@ -23,7 +23,7 @@ function App() {
         <div className="App">
         <switch>
           <Route path = "/" exact component = {Home}/>
-          <Route path = "/call" exact component = {callll}/>
+          {/* <Route path = "/call" exact component = {callll}/> */}
         </switch>
         </div>
 

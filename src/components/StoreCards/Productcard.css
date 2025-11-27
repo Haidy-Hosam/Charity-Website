@@ -1,0 +1,85 @@
+.product_box .description {
+  text-align: right;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;     
+}
+.product_box .img {
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+}
+
+.title-price {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.price {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+.product_box{
+    flex: 0 0 calc(25% - 24px);
+    max-width: 260px;
+    min-width: 220px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(254, 254, 254);
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 1024px) {
+    .product_box{
+        flex: 0 0 calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .product_box{
+        flex: 0 0 calc(50% - 16px);
+        max-width: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .product_box{
+        flex: 0 0 100%;
+    }
+}
+.btn-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: auto;   /* أهم سطر في الدنيا */
+    width: 100%;
+    padding-top: 10px;
+}
+
+.product-btn {
+  padding: 12px 24px;
+  background-color: #7fbfc1; 
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+  border: 1px solid #7fbfc1 ;
+  cursor: pointer;
+  width: 60%;          
+  max-width: 240px;    
+  min-width: 140px;    
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: larger;
+}
+
+@media (max-width: 400px) {
+  .btn { width: 80%; min-width: 0; }
+}
