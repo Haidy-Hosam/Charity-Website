@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/charity-website/static/css/main.aca07d67.css",
-    "main.js": "/charity-website/static/js/main.b1e6487d.js",
+    "main.js": "/charity-website/static/js/main.685905de.js",
     "static/js/453.7934cf0b.chunk.js": "/charity-website/static/js/453.7934cf0b.chunk.js",
     "static/media/pexels-gustavo-fring-4894722.webp": "/charity-website/static/media/pexels-gustavo-fring-4894722.4fe01cf9efe4da896c6a.webp",
     "static/media/rr.webp": "/charity-website/static/media/rr.e6201de90460bb86f675.webp",
@@ -33,11 +33,11 @@
     "static/media/download (3).webp": "/charity-website/static/media/download (3).4ed65e4d4d4e03a15b4a.webp",
     "index.html": "/charity-website/index.html",
     "main.aca07d67.css.map": "/charity-website/static/css/main.aca07d67.css.map",
-    "main.b1e6487d.js.map": "/charity-website/static/js/main.b1e6487d.js.map",
+    "main.685905de.js.map": "/charity-website/static/js/main.685905de.js.map",
     "453.7934cf0b.chunk.js.map": "/charity-website/static/js/453.7934cf0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aca07d67.css",
-    "static/js/main.b1e6487d.js"
+    "static/js/main.685905de.js"
   ]
 }
