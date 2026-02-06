@@ -10,6 +10,7 @@ import CallUs from './components/CallUs/CallUs.js';
 import News_and_Acrticles from './components/News_and_Acrticles/News_and_Acrticles';
 import CardDetails from './components/News_and_Acrticles/CardDetails/CardDetails.js'
 import ProductDetails from './components/Store/productDetails.js'
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton.js';
 import {
   HashRouter as Router,
   Switch,
@@ -22,6 +23,7 @@ function App() {
       <Header/>
         <Container>
 
+      <ScrollToTopButton />
         <div className="App">
         <Switch>
           <Route path = "/" exact component = {Home}/>
