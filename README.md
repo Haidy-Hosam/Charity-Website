@@ -1,4 +1,4 @@
-# 🌱 Mohamed’s Legacy Charity Website
+# 🌱Legacy Charity Website
 
 A modern responsive charity association website built with **React.js** to support donation campaigns, charity projects, and community engagement.
 
@@ -6,7 +6,7 @@ A modern responsive charity association website built with **React.js** to suppo
 
 ## 📌 Project Description
 
-**Mohamed’s Legacy** is a non-profit charity association website designed to help children and families in need by providing:
+**Legacy** is a non-profit charity association website designed to help children and families in need by providing:
 
 - Donation campaigns  
 - Charity online store  
