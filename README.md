@@ -68,11 +68,3 @@ All layout issues such as overflow and horizontal scrolling were handled properl
 
 ---
 
-## 🚀 Getting Started
-
-Follow these steps to run the project locally:
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/mohameds-legacy.git
