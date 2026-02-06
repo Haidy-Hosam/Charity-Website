@@ -1,5 +1,5 @@
-import CenterTitle from "./../common/Center_Section_Line3/Center_Section_Line3";
-import ProductGrid from './Product'
+import CenterTitle from "../../components/common/Center_Section_Line3/Center_Section_Line3";
+import ProductGrid from '../../components/Store/Product'
 
 function Store() {
   return (

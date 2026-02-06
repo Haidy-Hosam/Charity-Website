@@ -12,8 +12,8 @@ import dole from "../../assets/down2load.webp";
 import dell from "../../assets/channels4_profile.webp";
 import hyndai from "../../assets/images.webp";
 import nasa from "../../assets/downloasd.webp";
-import SectionLine from "../common/Left_Section_Line2/Section_line2";
-import CenterTitle from "../common/Center_Section_Line3/Center_Section_Line3";
+import SectionLine from "../../components/common/Left_Section_Line2/Section_line2";
+import CenterTitle from "../../components/common/Center_Section_Line3/Center_Section_Line3";
 import GoalBoard from "../../assets/Top Five ServiceNow Implementations-1-1 (2).webp";
 import PersonImg from "../../assets/dowwnloasd.webp";
 

@@ -1,27 +1,27 @@
-import KidsImg from '../../../assets/pexels-gustavo-fring-4894722.webp';
+import KidsImg from '../../assets/pexels-gustavo-fring-4894722.webp';
 import { useParams } from "react-router-dom";
 
 function CardDetails() {
-    const { id } = useParams();
+  const { id } = useParams();
   return (
-        <>
-    <div className="news-hero">
-  <div className="news-overlay"></div>
+    <>
+      <div className="news-hero">
+        <div className="news-overlay"></div>
 
-  <img
-    src={KidsImg}   
-    alt="زيارة جمعية حياة طفل الخيرية"
-    className="news-image"
-  />
+        <img
+          src={KidsImg}
+          alt="زيارة جمعية حياة طفل الخيرية"
+          className="news-image"
+        />
 
-  <div className="news-text" dir="rtl">
-    <h3 className="news-title">زيارة جمعية حياة طفل الخيرية</h3>
-    <p className="news-date">السبت 31 أغسطس 2024</p>
-  </div>
-</div>
+        <div className="news-text" dir="rtl">
+          <h3 className="news-title">زيارة جمعية حياة طفل الخيرية</h3>
+          <p className="news-date">السبت 31 أغسطس 2024</p>
+        </div>
+      </div>
 
-<h1 className='headtext'>جمعية سعادة طفل - إرث محمد تنظم فعالية خيرية للأطفال والأسر المحتاجة</h1>
-<div className="event-meta">
+      <h1 className='headtext'>جمعية سعادة طفل - إرث محمد تنظم فعالية خيرية للأطفال والأسر المحتاجة</h1>
+      <div className="event-meta">
         <p><span className="icon">📍</span> <strong>المكان:</strong> قاعة مركز الملك فهد الثقافي - الرياض</p>
         <p><span className="icon">🗓️</span> <strong>التاريخ:</strong> يوم الجمعة الموافق 20 سبتمبر 2025</p>
         <p><span className="icon">⏰</span> <strong>التوقيت:</strong> من الساعة 5:00 مساءً حتى 10:00 مساءً</p>
@@ -52,7 +52,7 @@ function CardDetails() {
           🌟 مثل هذه الفعاليات تؤكد أن العمل الإنساني يمكن أن يخلق بيئة مليئة بالأمل، وإن كل ابتسامة تُهدى لطفل هي بذرة أمل نستمر في زرعها.
         </p>
       </section>
-      </>
+    </>
   )
 }
 

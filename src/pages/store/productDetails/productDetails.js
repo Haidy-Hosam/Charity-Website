@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom'; 
-import { products } from './productsData'; 
-import ProductGrid from "../Store/Product.js";
+import { products } from '../../../components/Store/productsData.js'; 
+import ProductGrid from "../../../components/Store/Product.js";
 import { useState } from 'react';
-import PurchaseProduct from './PurchaseProduct'; 
+import PurchaseProduct from '../../../components/Store/PurchaseProduct.js'; 
 
 const ProductDetails = () => {
   const { id } = useParams();

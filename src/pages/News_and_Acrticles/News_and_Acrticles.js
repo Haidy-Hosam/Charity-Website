@@ -1,6 +1,6 @@
 import "./News_and_Acrticles.css";
-import CenterTitle from "./../common/Center_Section_Line3/Center_Section_Line3";
-import CardGrid from "../common/Cards/cardGrid";
+import CenterTitle from "../../components/common/Center_Section_Line3/Center_Section_Line3";
+import CardGrid from "../../components/common/Cards/cardGrid";
 import image4 from "../../assets/kids-playing-football-29318311.webp";
 import image5 from "../../assets/pexels-gustavo-fring-4894722.webp";
 import image6 from "../../assets/premium_photo-1661567408466-27899e8a4a2f.webp";

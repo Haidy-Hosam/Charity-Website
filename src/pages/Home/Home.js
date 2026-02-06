@@ -1,10 +1,10 @@
 import React from "react";
 import frame2 from "../../assets/Frame 2.png";
-import SectionTitle from "../common/LR_Section_line1/Section_Line.js";
+import SectionTitle from "../../components/common/LR_Section_line1/Section_Line.js";
 import "./Home.css";
 import CardGrid from "../../components/common/Cards/cardGrid.js";
-import ProductGrid from "../Store/Product.js"; // بتاع المتجر المظبوط
-import Card from "../common/Cards/card.js";
+import ProductGrid from "../../components/Store/Product.js"; // بتاع المتجر المظبوط
+import Card from "../../components/common/Cards/card.js";
 import image4 from "../../assets/kids-playing-football-29318311.webp";
 import image5 from "../../assets/pexels-gustavo-fring-4894722.webp";
 import image6 from "../../assets/premium_photo-1661567408466-27899e8a4a2f.webp";
