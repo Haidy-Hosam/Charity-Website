@@ -223,17 +223,17 @@ export default function MyStaticLeafletMap({
         </p>
       </div>
 
-      <div className="opinions-wrapper">
-        <button className="arrow left-arrow2">›</button>
+      <div className="partners-wrapper">
+        <button className="arrow left-arrow2" title="Next">›</button>
         <div className="Partners">
-          <img src={bella} className="par" alt="" />
-          <img src={pebci} className="par" alt="" />
-          <img src={dole} className="par" alt="" />
-          <img src={dell} className="par" alt="" />
-          <img src={hyndai} className="par" alt="" />
-          <img src={nasa} className="par" alt="" />
+          <img src={bella} className="par" alt="Sponsor logo" />
+          <img src={pebci} className="par" alt="Sponsor logo" />
+          <img src={dole} className="par" alt="Sponsor logo" />
+          <img src={dell} className="par" alt="Sponsor logo" />
+          <img src={hyndai} className="par" alt="Sponsor logo" />
+          <img src={nasa} className="par" alt="Sponsor logo" />
         </div>
-        <button className="arrow right-arrow2">‹</button>
+        <button className="arrow right-arrow2" title="Previous">‹</button>
       </div>
 
       <div className="my-static-leaflet-wrapper" style={{ width: "100%" }}>

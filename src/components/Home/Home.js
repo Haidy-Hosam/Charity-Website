@@ -180,17 +180,22 @@ export default function Home() {
       </div>
 
       <div className="opinions-wrapper">
-        <button className="arrow left-arrow2">›</button>
-        <div className="Partners">
-          <img src={bella} className="par" alt="" />
-          <img src={pebci} className="par" alt="" />
-          <img src={dole} className="par" alt="" />
-          <img src={dell} className="par" alt="" />
-          <img src={hyndai} className="par" alt="" />
-          <img src={nasa} className="par" alt="" />
-        </div>
-        <button className="arrow right-arrow2">‹</button>
-      </div>
+
+  <button className="arrow left-arrow2">›</button>
+
+  <div className="Partners">
+    <img src={bella} className="par" alt="" />
+    <img src={pebci} className="par" alt="" />
+    <img src={dole} className="par" alt="" />
+    <img src={dell} className="par" alt="" />
+    <img src={hyndai} className="par" alt="" />
+    <img src={nasa} className="par" alt="" />
+  </div>
+
+  <button className="arrow right-arrow2">‹</button>
+
+</div>
+
     </>
   );
 }
