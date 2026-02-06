@@ -1,51 +1,45 @@
-# 🌱Legacy Charity Website
+# 🌱 Mohamed’s Legacy Charity Website
 
-A responsive multi-page charity website built with **React.js**, designed to support donation campaigns, display association projects, and provide an online charity store.
+A modern responsive charity association website built with **React.js** to support donation campaigns, charity projects, and community engagement.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Description
 
-**Mohamed’s Legacy** is a non-profit charity association website that aims to:
+**Mohamed’s Legacy** is a non-profit charity association website designed to help children and families in need by providing:
 
-- Support children and families in need  
-- Provide ongoing donation campaigns  
-- Offer a charity online store  
-- Share news, articles, and updates  
-- Improve communication with donors and volunteers  
+- Donation campaigns  
+- Charity online store  
+- News and articles  
+- Contact and communication channels  
+- Sponsor/Partner showcase  
 
-This project was developed as a complete responsive web application with a clean UI and smooth navigation experience.
+The project focuses on delivering a clean Arabic RTL user interface with full responsiveness across all devices.
 
 ---
 
 ## ✨ Features
 
-✅ Fully responsive design (Desktop / Tablet / Mobile)  
-✅ Multi-page React application  
-✅ Donation campaigns with progress tracking  
-✅ Charity store with product cards  
-✅ News & Articles section  
-✅ Contact page with association details  
-✅ Sponsor/Partners slider with navigation arrows  
-✅ Clean Arabic RTL layout support  
+- ✅ Fully Responsive Design (Mobile / Tablet / Desktop)
+- ✅ Multi-page React Application
+- ✅ Donation Campaigns with Progress Tracking
+- ✅ Charity Store with Product Cards
+- ✅ Articles & News Section
+- ✅ Contact Page with Social Links
+- ✅ Sponsors/Partners Slider with Navigation Arrows
+- ✅ Arabic RTL Layout Support
 
 ---
 
 ## 🖥️ Website Pages
 
-The website contains the following main pages:
-
-- **Home Page**  
-- **Campaigns Page**  
-  - Current Campaigns  
-  - Featured Campaigns  
-- **About the Association**  
-- **Charity Store**  
-  - Products listing  
-  - Product details layout  
-- **News & Articles**  
-- **Contact Us Page**  
-- **Footer with Quick Links & Social Media**
+- Home Page  
+- Campaigns Page  
+- About the Association  
+- Charity Store  
+- News & Articles  
+- Contact Us Page  
+- Footer with Quick Navigation Links  
 
 ---
 
@@ -53,27 +47,30 @@ The website contains the following main pages:
 
 - **React.js**
 - **React Router DOM**
-- **CSS3 (Flexbox + Grid + Media Queries)**
-- **Responsive Web Design**
 - **JavaScript (ES6+)**
+- **CSS3**
+  - Flexbox
+  - Grid
+  - Media Queries
+- Responsive Web Design Principles
 
 ---
 
 ## 📱 Responsive Design
 
-This project is optimized for all screen sizes:
+This project is optimized for:
 
-- Desktop Layout  
-- Tablet Layout  
-- Mobile Layout  
+- Large Desktop Screens  
+- Tablets  
+- Mobile Phones  
 
-All components were adjusted to prevent horizontal scrolling and ensure smooth responsiveness.
+All layout issues such as overflow and horizontal scrolling were handled properly.
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Getting Started
 
-To run the project locally:
+Follow these steps to run the project locally:
 
 ### 1. Clone the repository
 
