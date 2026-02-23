@@ -1,8 +1,6 @@
 import KidsImg from '../../../assets/pexels-gustavo-fring-4894722.webp';
-import { useParams } from "react-router-dom";
 
 function CardDetails() {
-    const { id } = useParams();
   return (
         <>
     <div className="news-hero">

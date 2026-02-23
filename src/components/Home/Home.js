@@ -47,7 +47,11 @@ export default function Home() {
         <img className="frame2" src={frame2} alt="Frame 2" />
       </div>
       <div>
-        <SectionTitle title="الحملات الجارية" linkText="عرض المزيد"  linkHref = '/campaigns' />
+        <SectionTitle
+          title="الحملات الجارية"
+          linkText="عرض المزيد"
+          linkHref="/campaigns"
+        />
       </div>
       <div className="first text section">
         <p>
@@ -60,7 +64,7 @@ export default function Home() {
 
       <CardGrid />
       <div>
-        <SectionTitle title="الحملات البارزة" linkText="عرض المزيد"/>
+        <SectionTitle title="الحملات البارزة" linkText="عرض المزيد" />
       </div>
 
       <Card
@@ -77,7 +81,11 @@ export default function Home() {
       />
 
       <div>
-        <SectionTitle title="المقالات" linkText="عرض المزيد"  linkHref = '/newsandarticles'/>
+        <SectionTitle
+          title="المقالات"
+          linkText="عرض المزيد"
+          linkHref="/newsandarticles"
+        />
       </div>
 
       <div className="second text section">
@@ -98,7 +106,11 @@ export default function Home() {
       />
 
       <div>
-        <SectionTitle title="المتجر الخيري" linkText="عرض المزيد"  linkHref = '/store'/>
+        <SectionTitle
+          title="المتجر الخيري"
+          linkText="عرض المزيد"
+          linkHref="/store"
+        />
       </div>
 
       <div className="Third text section">
@@ -110,7 +122,7 @@ export default function Home() {
       </div>
 
       <div></div>
-<ProductGrid limit={3} />
+      <ProductGrid limit={3} />
 
       <div className="line_style">
         <span className="line" style={{ flex: 1 }} aria-hidden="true"></span>
@@ -180,22 +192,19 @@ export default function Home() {
       </div>
 
       <div className="opinions-wrapper">
+        <button className="arrow left-arrow2">›</button>
 
-  <button className="arrow left-arrow2">›</button>
+        <div className="Partners">
+          <img src={bella} className="par" alt="" />
+          <img src={pebci} className="par" alt="" />
+          <img src={dole} className="par" alt="" />
+          <img src={dell} className="par" alt="" />
+          <img src={hyndai} className="par" alt="" />
+          <img src={nasa} className="par" alt="" />
+        </div>
 
-  <div className="Partners">
-    <img src={bella} className="par" alt="" />
-    <img src={pebci} className="par" alt="" />
-    <img src={dole} className="par" alt="" />
-    <img src={dell} className="par" alt="" />
-    <img src={hyndai} className="par" alt="" />
-    <img src={nasa} className="par" alt="" />
-  </div>
-
-  <button className="arrow right-arrow2">‹</button>
-
-</div>
-
+        <button className="arrow right-arrow2">‹</button>
+      </div>
     </>
   );
 }

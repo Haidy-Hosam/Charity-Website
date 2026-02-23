@@ -1,7 +1,5 @@
-import React from "react";
 import "./campaigns.css";
 import CardGrid from "../common/Cards/cardGrid";
-import Card from "../common/Cards/card";
 import image2 from "../../assets/free-video-2247164.webp";
 import image3 from "../../assets/rr.webp";
 import CenterTitle from './../common/Center_Section_Line3/Center_Section_Line3';
